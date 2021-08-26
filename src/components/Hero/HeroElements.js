@@ -64,9 +64,8 @@ cursor:pointer;
 background:#e31837;
 border:none;
 color:#fff;
-font-size:1
-rem;
-transition:color,background 0.5ms ease-in;
+font-size:1.2rem;
+transition:color,background 0.3s ease-in;
 
 
 &:hover{

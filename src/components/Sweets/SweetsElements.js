@@ -24,8 +24,6 @@ flex-wrap:wrap;
 justify-content:center;
 margin:0 auto;
 
-
-
 ` 
 export const SweetCard=styled.div`
 width:300px;
@@ -39,10 +37,10 @@ min-width:320px;
 height:350px;
 box-shadow:8px 8px #fdc500;
 cursor:pointer;
+transition:transform 0.3s ease-in;
 
 &:hover{
-    transform:scale(1.1);
-    transition:0.3s all linear;
+    transform:scale(1.1); 
 }
 
 ` 
@@ -73,12 +71,12 @@ padding:1rem 4rem;
 border:none;
 color:#fff;
 cursor:pointer;
+transition:background color 0.2s ease-out;
 
 
 &:hover{
     color:#000;
-    background:#ffc500;
-    transition:0.2s ease-out;
+    background:#ffc500;  
 }
 
 ` 

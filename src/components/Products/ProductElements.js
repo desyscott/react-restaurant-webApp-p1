@@ -45,7 +45,6 @@ transition:transform 0.3s ease-in;
 &:hover{
     transform:scale(1.1);   
 }
-
 `
 export const  ProductInfo = styled.div`
 display:flex;

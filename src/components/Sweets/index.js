@@ -10,9 +10,6 @@ import {
     SweetDesc,
     SweetPrice,
     SweetBtn
-
-
-
 } from "./SweetsElements"
 
 

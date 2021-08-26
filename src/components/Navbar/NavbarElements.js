@@ -35,7 +35,7 @@ right:0;
         transform:translate(-75px,30px);
         font-weight:bold;
          }
-         @media screen and (max-width:375px){
+         @media screen and (max-width:450px){
             position:absolute;
             top:0;
            right:-8%;
