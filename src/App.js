@@ -20,10 +20,10 @@ function App() {
    <Sweets  heading="sweet treats for you" dataTwo={sweetData}/>
    <Footer/>
     <Switch>
-      <Route path ="/"/>
+      <Route path ="/" exact />
+      {/* <Route path ="/" exact component={}/> */}
     </Switch>
     </Router>
-
     </>
   );
 }

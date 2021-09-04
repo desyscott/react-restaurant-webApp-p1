@@ -16,7 +16,6 @@ import {
 
 const Sweets =({heading,dataTwo})=>{
     return(
-        
         <SweetContainer>
             <SweetHeading>
             {heading}
